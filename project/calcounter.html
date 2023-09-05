@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJAX Project</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+  <header>
+    <div class="topnav">
+      <a href="#home" class="active">HealthFi</a>
+      <div class="links" id="myLinks">
+        <a href="getstarted.html">Getting Started</a>
+        <a href="calcounter.html">Calorie Counter</a>
+        <a href="metabolism.html">Metabolism Calculator</a>
+        <a href="excercise.html">Create a Workout</a>
+
+
+      </div>
+      <div class="menu-toggle" onclick="myFunction()">
+        <div class="menu-toggle-bar"></div>
+        <div class="menu-toggle-bar"></div>
+        <div class="menu-toggle-bar"></div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="column-full">
+          <div class="h2style">
+            <h1>Food Calorie Counter</h1>
+          </div>
+          <div class="h2style">
+            <p>Use this to keep track the amount of calories
+            coming from your food and allows you to keep track
+            throughout the day so
+            you can meet your caloric goals!
+            </p>
+          </div>
+        </div>
+
+        <div class="column-half">
+          <span class="input">
+            <input type="text" id="searchInput" placeholder="Enter Food">
+          </span>
+          <button class="sub-btn" onclick="search()">Search
+          </button>
+          <div class="column-full" id="results">
+
+          </div>
+        </div>
+
+        <div class="column-full">
+          <div class="cont">
+            <button class="sub-btn saved">Save
+            </button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div id="savedEntries" class="column-half">
+            <h3>Saved Entries</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

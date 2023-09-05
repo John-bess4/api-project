@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJAX Project</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="topnav">
+      <a href="#home" class="active">HealthFi</a>
+      <div class="links" id="myLinks">
+        <a href="getstarted.html">Getting Started</a>
+        <a href="calcounter.html">Calorie Counter</a>
+        <a href="metabolism.html">Metabolism Calculator</a>
+        <a href="excercise.html">Create a Workout</a>
+      </div>
+      <div class="menu-toggle" onclick="myFunction()">
+        <div class="menu-toggle-bar"></div>
+        <div class="menu-toggle-bar"></div>
+        <div class="menu-toggle-bar"></div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <h2 class="h2style"> Welcome to HealthFi </h2>
+        <div class="column-full">
+
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 5</div>
+              <img class="bg" src="/project/images/homepage1.jpeg">
+              <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 5</div>
+              <img class="bg" src="/project/images/homepage2.jpeg">
+              <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 5</div>
+              <img class="bg" src="/project/images/homepage3.jpg">
+              <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 5</div>
+              <img class="bg" src="/project/images/homepage4.jpeg">
+              <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 5</div>
+              <img class="bg" src="/project/images/homepage5.jpg">
+              <div class="text">Caption Three</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#8592;</a>
+            <a class="next" onclick="plusSlides(1)">&#8594;</a>
+
+          </div>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+          </div>
+        </div>
+        <div class="h2style">
+          <p>Get started with your journey using the tools below!</p>
+        </div>
+        <div class="column-halves">
+          <div class="testimotionals">
+            <div class="card">
+              <div class="layer">
+              </div>
+              <div class="content">
+                <div class="image">
+                  <img src="https://vignette.wikia.nocookie.net/supernatural-diaries/images/b/b2/Cara-delevingne-profile.jpg/revision/latest?cb=20140217060511" alt="">
+                </div>
+                <div class="details">
+                  <h2> Someone famous <br> <span>Backend developer</span></h2>
+                </div>
+                <p>Lorem repellat nihil quos. Saepe ipsa veritatis magni voluptates voluptatum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column-halves">
+          <div class="testimotionals">
+            <div class="card">
+              <div class="layer">
+              </div>
+              <div class="content">
+                <div class="image">
+                  <img
+                    src="https://vignette.wikia.nocookie.net/supernatural-diaries/images/b/b2/Cara-delevingne-profile.jpg/revision/latest?cb=20140217060511"
+                    alt="">
+                </div>
+                <div class="details">
+                  <h2> Someone famous <br> <span>Backend developer</span></h2>
+                </div>
+                <p>Lorem repellat nihil quos. Saepe ipsa veritatis magni voluptates voluptatum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column-halves">
+          <div class="testimotionals">
+            <div class="card">
+              <div class="layer">
+              </div>
+              <div class="content">
+                <div class="image">
+                  <img
+                    src="https://vignette.wikia.nocookie.net/supernatural-diaries/images/b/b2/Cara-delevingne-profile.jpg/revision/latest?cb=20140217060511"
+                    alt="">
+                </div>
+                <div class="details">
+                  <h2> Someone famous <br> <span>Backend developer</span></h2>
+                </div>
+                <p>Lorem repellat nihil quos. Saepe ipsa veritatis magni voluptates voluptatum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column-halves">
+          <div class="testimotionals">
+            <div class="card">
+              <div class="layer">
+              </div>
+              <div class="content">
+                <div class="image">
+                  <img
+                    src="https://vignette.wikia.nocookie.net/supernatural-diaries/images/b/b2/Cara-delevingne-profile.jpg/revision/latest?cb=20140217060511"
+                    alt="">
+                </div>
+                <div class="details">
+                  <h2> Someone famous <br> <span>Backend developer</span></h2>
+                </div>
+                <p>Lorem repellat nihil quos. Saepe ipsa veritatis magni voluptates voluptatum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="column-full">About Us
+          <br> Contact Us
+          <br>FAQ
+        </footer>
+      </div>
+    </div>
+  </main>
+  <script src="js/main.js"></script>
+  <script src="js/data.js"></script>
+
+</body>
+</html>
